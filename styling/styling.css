@@ -1,0 +1,100 @@
+body {
+  text-align: center;
+  background-color: rgb(225, 217, 233);
+}
+
+h1 {
+  font-family: "roboto", sans-serif;
+  font-size: 52px;
+  color: rgb(86, 43, 204);
+}
+
+img {
+  width: 270px;
+  height: 150px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-family: "roboto", sans-serif;
+  padding-left: 10px;
+}
+
+header {
+  text-align: center;
+}
+
+main {
+  text-align: left;
+  width: 700px;
+  margin: auto;
+  border-radius: 9px;
+  padding: 10px 20px 20px 10px;
+  background-color: rgb(117, 89, 192);
+  color: rgb(240, 232, 208);
+  margin-bottom: 30px;
+}
+
+p {
+  font-family: "roboto";
+  font-weight: 300;
+  border-left: 5px solid transparent;
+  padding-left: 10px;
+  font-size: 15px;
+}
+
+.highlight-anc {
+  background-color: rgb(233, 209, 142);
+  border-radius: 4px;
+  color: black;
+  text-decoration: none;
+}
+
+.highlight-anc:hover {
+    background-color: rgb(226, 184, 67);
+}
+
+footer {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#link {
+  font-family: "roboto";
+  font-weight: 300;
+  color: rgb(0, 0, 0);
+  background-color: rgb(241, 202, 75);
+  width: 200px;
+  margin: 50px auto;
+  font-size: 15px;
+  border: 1px solid rgb(241, 202, 75);
+  border-radius: 8px;
+  box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.3);
+  padding: 10px 5px 10px 5px;
+  text-decoration: none;
+  /* Figure how to make this a download button? */
+  /* completed in the html file id="link" href="./references/html-css-basics-summary.pdf" target="_blank">Download PDF Summary
+  the target=_blank creates a new tab prior to download  */
+}
+
+#link:hover {
+    background-color: rgb(226, 184, 67);
+    border: 1px solid rgb(226, 184, 67);
+}
+
+#copyright {
+  font-family: "roboto";
+  font-weight: 300;
+  font-size: 13px;
+  color: rgb(114, 113, 113);
+  margin-top: 30px;
+}
+
+
+.highlight-bp {
+    color: rgb(231, 197, 84);
+    border-left: 5px solid rgb(231, 197, 84);
+    padding-left: 10px;
+    /* somehow get a line prior to BP? Achieved with a mix of "border-left", "padding" and transparent borders for alignment .*/
+}
